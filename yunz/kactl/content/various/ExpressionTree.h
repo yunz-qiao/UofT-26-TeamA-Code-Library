@@ -10,7 +10,7 @@
  */
 #pragma once
 
-const int N = 2e6; // max node count in expr tree. |S| is enough
+const int N = 2e6; // max node cnt in expr tree. |S| is enough
 struct Val { // 32 bytes/node
     int v; // only used if op = 0
     char op; Val *l, *r; // only used if op != 0
